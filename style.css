@@ -1,0 +1,184 @@
+*{
+    margin: 0%;
+}
+
+body
+{
+    background-color: white;
+}
+
+header {
+    width: 100%;
+    height: 2cm;
+    background-color: rgb(238, 53, 53);
+    display: flex;
+    justify-content: space-between;
+    color: aliceblue;
+    
+    
+}
+.discover {
+    background-image: url(./hero.png);
+    background-position: center;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+ .button1{
+    
+ margin: auto;
+    
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+   padding: 20px 0;
+   justify-items: center;
+  color: aliceblue;
+    
+}
+li {
+    padding: 0 20px;
+}
+img {
+    width: 100%;
+}
+.container {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 700px;
+    display: flex;
+flex-flow: row;
+    
+    justify-content: center;
+    margin-top: 10%;
+   
+}
+
+.container img {
+   
+    width: 7cm;
+    height: 10cm;
+    padding: 0 9px;
+    
+    
+    
+}
+.container p{
+    display: flex;
+    align-items: top;
+}
+
+
+
+.title {
+    text-align: center;
+   
+padding-top:5cm;
+   top: 2cm;
+   bottom: 1cm;
+    
+}
+
+footer {
+   width: 100%;
+    height: 2cm;
+background-color: rgb(36, 33, 33);
+color: aliceblue;
+display: flex;
+   justify-content: space-around;
+    align-items: baseline;
+    padding: 0% 11cm;
+    margin: 0%;
+    
+    
+}
+
+h3 {
+    position: absolute;
+    display: flex;
+    padding-top: 70px;
+    padding-left: 15cm;
+
+}
+
+.title {
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: aliceblue;
+
+}
+  
+
+.ppp {
+   display: flex;
+   color: rgb(255, 0, 0);
+}
+
+.image h6 {
+    display: flex;
+    padding: 20px 30%;
+   
+}
+
+
+.white1 {
+    position: absolute;
+    width: 6.495cm;
+    height: 4cm;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 0.5cm;
+    flex-flow: column;
+    top: 42.69cm;
+    left: 14.93cm;
+    border: 1px solid rgb(204, 201, 201);
+    
+}
+
+.white2 {
+    position: absolute;
+    width: 6.495cm;
+    height: 4cm;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 0.5cm;
+    flex-flow: column;
+    top: 42.69cm;
+    left: 21.93cm;
+    border: 1px solid rgb(204, 201, 201);
+    
+    
+}
+
+
+.white3 {
+    
+    position: absolute;
+    width: 6.495cm;
+    height: 4cm;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 0.5cm;
+    flex-flow: column;
+    top: 42.69cm;
+    left: 28.93cm;
+    border: 1px solid rgb(204, 201, 201);
+    
+    
+    
+}
+.red {
+    color: red;
+}
+
+.checked {
+    color: orange;
+}
